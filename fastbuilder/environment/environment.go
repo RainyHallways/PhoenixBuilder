@@ -7,6 +7,8 @@ import (
 
 type LoginInfo struct {
 	Token          string
+	Username       string
+	Password       string
 	ServerCode     string
 	ServerPasscode string
 }
